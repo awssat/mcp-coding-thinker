@@ -1,4 +1,4 @@
-# mcp-coding-thinker
+# Coding Thinker MCP
 
 > **AI Code Surgeon: Think → Edit → Verify → Commit**  
 > The only MCP that combines reasoning, surgical diffs, syntax validation, and git commits in one workflow.
