@@ -1,6 +1,6 @@
 {
   "name": "mcp-coding-thinker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI Code Surgeon MCP: Think → Edit → Verify → Commit. Surgical code changes with reasoning and git safety.",
   "main": "dist/index.js",
   "type": "module",
@@ -29,12 +29,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/mcp-coding-thinker.git"
+    "url": "https://github.com/awssat/mcp-coding-thinker.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/mcp-coding-thinker/issues"
+    "url": "https://github.com/awssat/mcp-coding-thinker/issues"
   },
-  "homepage": "https://github.com/yourusername/mcp-coding-thinker#readme",
+  "homepage": "https://github.com/awssat/mcp-coding-thinker#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.5.0",
     "diff": "^5.2.0",
