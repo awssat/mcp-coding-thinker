@@ -136,6 +136,10 @@ export class SessionManager {
   async saveSession(session: SessionState): Promise<void> {
     const sessionPath = this.getSessionPath(session.id);
 
+    if (!existsSync(sessionPath)) {
+      writeFileSync(sessionPath, '', 'utf-8');
+    }
+
     // Acquire lock for writing
     const release = await this.acquireLock(sessionPath);
     try {
